@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_iris_medoid_profile",
+  "source_file": "utl-altair-slc-k-mediods-clustering-using-r.sas",
+  "source_blob_sha": "e751cd63cfef8250f170592d6dd0522fd96b3796",
+  "source_commit": "a5537940bcaa3b1e426ebc938c4f960472e23812",
+  "notes": "The author's iris DATA step (retain order Sepal_Length..Species, informat Species $11., list input with @@, inline cards4 of all 150 iris rows) and the by-species PROC SORT, unchanged. Only edit: library reference d:/wpswrkx WORKX -> WORK so the step is self-contained. Added one standard PROC MEANS (n/mean/min/max by Species over the four measured dimensions) to surface the per-cluster 4-D profile the k-medoids post is about. The proc r / %utlfkil / PAM-clustering portion needs an external R install and local paths and is not part of this bundle."
+}
